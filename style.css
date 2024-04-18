@@ -34,6 +34,42 @@
 }
 
 
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+    .conteudo {
+        margin: 0px 15px 0px 15px !important;
+        height: auto !important;
+     
+      }
+  
+      body {
+          background-image: url('./assets/images/background-pattern-mobile.svg') !important;
+          background-repeat: no-repeat !important;
+          background-color: hsl(275, 100%, 97%) !important;
+          background-size: 100% !important;  
+          background-size: contain !important;
+      }
+  
+      .topicos{
+          gap: 0 px !important;
+          width: 100% !important;
+      }
+      
+      #conteudo-1, #conteudo-2, #conteudo-3, #conteudo-4{
+          width: auto !important;
+      }
+  
+      h5{
+          width: 100% !important;
+      }   
+      
+      img {
+          padding-left: 30px !important;
+          margin-left: 0 !important;
+      }
+    }
+  }
+
+
 
 @media only screen and (max-width: 375px) {   
 
