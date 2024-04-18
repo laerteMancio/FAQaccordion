@@ -33,7 +33,7 @@
   
 }
 
-@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+@media only screen and (max-height: 600.98px) and (orientation: landscape) {
 
                     .container{
                         height: auto !important;
